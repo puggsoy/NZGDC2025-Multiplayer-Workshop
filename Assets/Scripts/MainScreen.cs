@@ -6,8 +6,6 @@ public class MainScreen : MonoBehaviour
 	[SerializeField]
 	private List<OptionUI> m_options = null;
 
-	//==================================================
-
 	private void Start()
 	{
 		for (int i = 0; i < m_options.Count; i++)
