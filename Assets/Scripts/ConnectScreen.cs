@@ -43,6 +43,11 @@ public class ConnectScreen : MonoBehaviour
 		m_backBtn.SetActive(true);
 	}
 
+	public void SubmitClick()
+	{
+		Debug.Log("Submitting isn't implemented yet!");
+	}
+
 	public void BackClick()
 	{
 		m_hostContainer.SetActive(false);
